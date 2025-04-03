@@ -98,6 +98,11 @@ form input[type="submit"] {
   cursor: pointer;
 }
 
+form input[type="submit"]:hover {
+  background: #374577;
+  transition: 0.5s;
+}
+
 .register-forgotPass {
   display: flex;
   justify-content: space-between;
@@ -121,4 +126,40 @@ form input[type="submit"] {
   content: "\002190";
   color: #999;
   font-size: 2rem;
+}
+
+/* Responsividade */
+
+@media (max-width: 470px) {
+  main {
+    width: 18rem;
+    padding: 2rem;
+  }
+
+  .input-username input,
+  .input-password input {
+    width: 100%;
+    height: 2.5rem;
+    font-size: 1.3rem;
+  }
+
+  .input-username span,
+  .input-password span {
+    font-size: 1.4rem;
+  }
+
+  .circulo-fora {
+    width: 4rem;
+    height: 4rem;
+    background: #fff;
+    border-radius: 3rem;
+  }
+
+  .register-forgotPass a {
+    font-size: 1.1rem;
+  }
+
+  .back-to-github a {
+    font-size: 1.1rem;
+  }
 }
