@@ -14,13 +14,13 @@ main {
   box-shadow: 0px 0px 0.5rem #aaa;
   border-radius: 1rem;
   padding: 4rem;
-  width: 32rem;
+  width: 28rem;
   height: 40rem;
 
   display: flex;
   flex-direction: column;
   place-content: center;
-  gap: 2rem;
+  gap: 2.3rem;
 }
 
 .logo {
@@ -31,11 +31,11 @@ main {
 }
 
 .circulo-fora {
-  width: 4.5rem;
-  height: 4.5rem;
+  width: 3.5rem;
+  height: 3.5rem;
   background: #fff;
   border-radius: 3rem;
-  border: 0.5rem solid #263466;
+  border: 0.4rem solid #263466;
 }
 
 .logo-frase {
@@ -57,7 +57,7 @@ label {
 .input-username span,
 .input-password span {
   font-family: Arial;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: #999;
   margin-bottom: 0.5rem;
 }
