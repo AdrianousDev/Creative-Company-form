@@ -44,3 +44,16 @@ a:hover {
   background: green;
   transition: 0.5s;
 }
+
+/* Responsividade */
+
+@media (max-width: 414px) {
+  body {
+    text-align: center;
+    color: #ccc;
+  }
+
+  img {
+    width: 60%;
+  }
+}
