@@ -208,3 +208,10 @@ body {
     font-size: 0.9rem;
   }
 }
+
+@media (max-height: 350px) {
+  body {
+    height: 100%;
+    padding-top: 100px;
+  }
+}
