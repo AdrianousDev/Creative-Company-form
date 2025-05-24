@@ -10,7 +10,6 @@
 
 body {
   background: linear-gradient(#263466 50%, #f1f1f1 50%);
-  width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -206,12 +205,5 @@ body {
   .inSubmit {
     height: 2.5rem;
     font-size: 0.9rem;
-  }
-}
-
-@media (max-height: 450px) {
-  body {
-    height: 100%;
-    padding-top: 100px;
   }
 }
