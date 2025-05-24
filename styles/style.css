@@ -209,7 +209,7 @@ body {
   }
 }
 
-@media (max-height: 350px) {
+@media (max-height: 450px) {
   body {
     height: 100%;
     padding-top: 100px;
