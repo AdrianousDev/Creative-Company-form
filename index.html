@@ -4,44 +4,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/style.css">
   <title>Creative Company</title>
 </head>
 
 <body>
-  <main>
+
+  <div class="login">
 
     <div class="logo">
-      <div class="circulo-fora"></div>
-      <span class="logo-frase">Creative Company</span>
+      <div class="circulo1">
+        <div class="circulo2"></div>
+      </div>
+      <p>Creative Company</p>
     </div>
 
-    <form action="pages/home.html" method="get">
-      <label class="input-username">
-        <span>Username or email</span>
-        <input type="text">
+    <form action="pages/home.html" method="get" class="login-form">
+
+      <label class="inLogin">
+        <p>Username or email</p>
+        <input type="text" required>
       </label>
-      <label class="input-password">
-        <span>Password</span>
-        <input type="password">
+
+      <label class="inLogin">
+        <p>Password</p>
+        <input type="password" required>
       </label>
-      <label class="checkbox">
+
+      <label class="inCheckbox">
         <input type="checkbox">
-        <span>Remember me</span>
+        <p>Remember me</p>
       </label>
-      <input type="submit" value="Login">
+
+      <input type="submit" value="Login" class="inSubmit">
+
     </form>
 
     <div class="register-forgotPass">
       <a href="pages/register.html">Register</a>
-      <a href="pages/forgotpassword.html">Forgot your password?</a>
+      <a href="pages/forgotpassword.html">Forgot your Password?</a>
     </div>
 
-    <div class="back-to-github">
-      <a href="https://github.com/AdrianousDev/Creative-Company-form" target="_blank">Back to Adrianous GitHub</a>
-    </div>
+    <a href="https://github.com/AdrianousDev/Creative-Company-form" class="back-github" target="_blank">Back to Adrianous GitHub</a>
 
-  </main>
+  </div>
+
 </body>
 
 </html>
